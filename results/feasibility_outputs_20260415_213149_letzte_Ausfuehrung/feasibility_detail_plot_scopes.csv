@@ -1,0 +1,85 @@
+scope;problem_id;algorithm;run;evaluations_nmr;fitness_value;feasible;max_violation;feasible_count;run_eval_count;feasible_rate;best_feasible_eval;best_feasible_value;function_name
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;Hyperopt_TPE;1;802;65.03035511;TRUE;0;131;1000;13.1%;802;65.03035511;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;Hyperopt_TPE;2;827;72.12859695;TRUE;0;146;1000;14.6%;827;72.12859695;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;Hyperopt_TPE;3;995;66.67129961;TRUE;0;156;1000;15.6%;995;66.67129961;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;LHS;1;30;108.112;TRUE;0;14;1000;1.4%;30;108.112;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;LHS;2;796;102.007;FALSE;0.018772627;10;1000;1.0%;66;131.750;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;LHS;3;212;102.892;FALSE;0.027425186;16;1000;1.6%;22;108.078;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;NLopt_DIRECT;1;218;125.550;TRUE;0;646;1000;64.6%;218;125.550;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;NLopt_DIRECT;2;218;125.550;TRUE;0;646;1000;64.6%;218;125.550;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;NLopt_DIRECT;3;218;125.550;TRUE;0;646;1000;64.6%;218;125.550;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;NLopt_SBPLX;1;165;112.148;FALSE;0.008091341;71;1000;7.1%;108;117.565;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;NLopt_SBPLX;2;165;112.148;FALSE;0.008091341;71;1000;7.1%;108;117.565;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;NLopt_SBPLX;3;165;112.148;FALSE;0.008091341;71;1000;7.1%;108;117.565;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;Pymoo_CMAES;1;766;101.154;FALSE;0.004854872;270;1000;27.0%;901;102.460;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;Pymoo_CMAES;2;809;77.451;TRUE;0;261;1000;26.1%;809;77.451;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;Pymoo_CMAES;3;778;84.407;TRUE;0;237;1000;23.7%;778;84.407;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;Pymoo_GA;1;882;86.99356928;TRUE;0;259;1000;25.9%;882;86.99356928;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;Pymoo_GA;2;979;96.50729916;TRUE;0;598;1000;59.8%;979;96.50729916;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;Pymoo_GA;3;984;77.94373284;TRUE;0;411;1000;41.1%;984;77.94373284;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;1;RBFOpt;1;404;67.35353495;TRUE;0;484;1000;0.484;404;67.35353495;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;RBFOpt;2;250;69.84542733;TRUE;0;517;1000;0.517;250;69.84542733;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best;1;RBFOpt;3;855;72.54152644;TRUE;0;491;998;0.491983968;855;72.54152644;solid_slab_one_way_concrete_problem_1
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;Hyperopt_TPE;1;796;70.55336108;TRUE;0;36;1000;3.6%;796;70.55336108;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;Hyperopt_TPE;2;797;97.02388041;TRUE;0;50;1000;5.0%;797;97.02388041;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;Hyperopt_TPE;3;982;93.35310143;TRUE;0;90;1000;9.0%;982;93.35310143;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;LHS;1;857;162.320;TRUE;0;2;1000;0.2%;857;162.320;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;LHS;2;524;127.932;TRUE;0;3;1000;0.3%;524;127.932;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;LHS;3;405;152.421;TRUE;0;3;1000;0.3%;405;152.421;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;NLopt_DIRECT;1;230;151.311;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;NLopt_DIRECT;2;230;151.311;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;NLopt_DIRECT;3;230;151.311;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;NLopt_SBPLX;1;88;120.909;FALSE;0.003583344;23;1000;2.3%;57;122.787;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;NLopt_SBPLX;2;88;120.909;FALSE;0.003583344;23;1000;2.3%;57;122.787;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;NLopt_SBPLX;3;88;120.909;FALSE;0.003583344;23;1000;2.3%;57;122.787;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;Pymoo_CMAES;1;901;108.220;TRUE;0;172;1000;17.2%;901;108.220;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;Pymoo_CMAES;2;1000;84.804;FALSE;0.023112951;176;1000;17.6%;773;91.444;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;Pymoo_CMAES;3;673;92.244;TRUE;0;217;1000;21.7%;673;92.244;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;Pymoo_GA;1;966;106.1230849;TRUE;0;359;1000;35.9%;966;106.1230849;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;Pymoo_GA;2;918;92.22839021;TRUE;0;448;1000;44.8%;918;92.22839021;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;Pymoo_GA;3;995;96.19255659;TRUE;0;513;1000;51.3%;995;96.19255659;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;2;RBFOpt;1;453;78.53849832;TRUE;0;471;1000;0.471;453;78.53849832;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;RBFOpt;2;237;90.40114614;TRUE;0;387;1000;0.387;237;90.40114614;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;2;RBFOpt;3;902;99.76697738;TRUE;0;517;1000;0.517;902;99.76697738;solid_slab_one_way_concrete_problem_2
+BM2_run_best | BM2+3Mix_run_best;3;Hyperopt_TPE;1;785;115.2677689;TRUE;0;66;1000;6.6%;785;115.2677689;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;Hyperopt_TPE;2;723;108.0094304;TRUE;0;52;1000;5.2%;723;108.0094304;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;Hyperopt_TPE;3;980;95.45461324;TRUE;0;61;1000;6.1%;980;95.45461324;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;LHS;1;857;154.434;TRUE;0;1;1000;0.1%;857;154.434;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;LHS;2;524;180.304;FALSE;0.144009973;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;LHS;3;671;202.673;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;NLopt_DIRECT;1;361;169.136;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;NLopt_DIRECT;2;361;169.136;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;NLopt_DIRECT;3;361;169.136;FALSE;0.066666667;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;NLopt_SBPLX;1;142;160.613;FALSE;0.061541815;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;NLopt_SBPLX;2;142;160.613;FALSE;0.061541815;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;NLopt_SBPLX;3;142;160.613;FALSE;0.061541815;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;Pymoo_CMAES;1;650;119.427;TRUE;0;115;1000;11.5%;650;119.427;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;Pymoo_CMAES;2;992;130.861;TRUE;0;189;1000;18.9%;992;130.861;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;Pymoo_CMAES;3;907;120.753;TRUE;0;101;1000;10.1%;907;120.753;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;Pymoo_GA;1;969;139.7246664;TRUE;0;179;1000;17.9%;969;139.7246664;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;Pymoo_GA;2;966;114.6256422;TRUE;0;318;1000;31.8%;966;114.6256422;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;Pymoo_GA;3;910;108.4426584;FALSE;0.000581974;395;1000;39.5%;811;108.8641329;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;RBFOpt;1;513;116.0360672;TRUE;0;405;1000;0.405;513;116.0360672;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;3;RBFOpt;2;874;109.7483188;TRUE;0;354;1000;0.354;874;109.7483188;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;3;RBFOpt;3;333;130.0732775;TRUE;0;432;1000;0.432;333;130.0732775;solid_slab_one_way_concrete_problem_3
+BM2_run_best | BM2+3Mix_run_best;4;Hyperopt_TPE;1;488;148.4615483;TRUE;0;50;1000;5.0%;488;148.4615483;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;Hyperopt_TPE;2;581;143.4000772;TRUE;0;75;1000;7.5%;581;143.4000772;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;Hyperopt_TPE;3;801;155.5635864;TRUE;0;30;1000;3.0%;801;155.5635864;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;LHS;1;857;237.086;FALSE;0.165627196;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;LHS;2;675;536.561;FALSE;0.426602254;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;LHS;3;585;336.064;FALSE;0.155575288;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;NLopt_DIRECT;1;251;428.389;FALSE;0.200694464;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;NLopt_DIRECT;2;251;428.389;FALSE;0.200694464;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;NLopt_DIRECT;3;251;428.389;FALSE;0.200694464;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;NLopt_SBPLX;1;121;261.197;FALSE;0.090971929;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;NLopt_SBPLX;2;121;261.197;FALSE;0.090971929;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;NLopt_SBPLX;3;121;261.197;FALSE;0.090971929;0;1000;0;NA;NA;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;Pymoo_CMAES;1;697;166.252;TRUE;0;1;1000;0.1%;697;166.252;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;Pymoo_CMAES;2;948;160.917;TRUE;0;13;1000;1.3%;948;160.917;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;Pymoo_CMAES;3;945;151.955;FALSE;0.009500126;10;1000;1.0%;932;165.190;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;Pymoo_GA;1;961;140.2748235;TRUE;0;29;1000;2.9%;961;140.2748235;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;Pymoo_GA;2;980;139.8130645;TRUE;0;260;1000;26.0%;980;139.8130645;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;Pymoo_GA;3;999;143.9437254;FALSE;0.002730932;232;1000;23.2%;860;149.128515;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;RBFOpt;1;585;148.0489443;TRUE;0;106;1000;0.106;585;148.0489443;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best | BM3_best_run | BM4b_best_value;4;RBFOpt;2;821;144.5226446;TRUE;0;309;1000;0.309;821;144.5226446;solid_slab_one_way_concrete_problem_4
+BM2_run_best | BM2+3Mix_run_best;4;RBFOpt;3;376;150.6439851;TRUE;0;105;999;0.105105105;376;150.6439851;solid_slab_one_way_concrete_problem_4

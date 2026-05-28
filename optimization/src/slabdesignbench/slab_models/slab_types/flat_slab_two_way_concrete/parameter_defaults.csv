@@ -1,0 +1,30 @@
+﻿name;domain;values;grid_start;grid_step;grid_count;default_lb;default_ub;default_fixed;role;value_type;Parameter category;Description
+static_system_;catalog;0 | 1;;;;0;1;0;fixed;float;Static system;0 - simply_supported, 1 - cantilever…
+span_primary_m;catalog;4.0 | 4.5 | 5.0 | 5.5 | 6.0 | 6.5 | 7.0 | 7.5 | 8.0 | 8.5 | 9.0 | 9.5 | 10.0;;;;0;12;9;fixed;float;"""";
+span_secondary_m;catalog;4.0 | 4.5 | 5.0 | 5.5 | 6.0 | 6.5 | 7.0 | 7.5 | 8.0 | 8.5 | 9.0 | 9.5 | 10.0;;;;0;12;9;fixed;float;"""";
+load_category_;catalog;0 | 1 | 2 | 3| 4;;;;0;4;0;fixed;float;"""";"0 - ""A"", 1 - ""B"", 2 - ""C"", 3 - ""D"", 4 - ""E"""
+live_load_kN_m2;catalog;2 | 3 | 4 | 5;;;;0;3;1;fixed;float;"""";
+superimposed_dead_load_kN_m2;catalog;1.0 | 1.5 | 2.0 | 2.5 | 3.0;;;;0;4;1;fixed;float;"""";
+slab_depth_mm;grid;;100;10;30;0;29;2;var;float;Geometry - concrete;
+slab_width_mm;grid;;250;125;7;0;6;6;fixed;float;"""";
+reinforcement_spacing_lay_1_mm;catalog;250.0|200.0|166.7|142.9|125.0|111.1|100.0|90.9|83.3|76.9|71.4|66.7|62.5|58.8|55.6|52.6|50.0|47.6|45.5|43.5|41.7|40.0|38.5|37.0|35.7|34.5|33.3;;;;0;26;1;var;float;Geometry - reinforcement;
+reinforcement_spacing_lay_2_mm;catalog;250.0|200.0|166.7|142.9|125.0|111.1|100.0|90.9|83.3|76.9|71.4|66.7|62.5|58.8|55.6|52.6|50.0|47.6|45.5|43.5|41.7|40.0|38.5|37.0|35.7|34.5|33.3;;;;0;26;1;var;float;"""";
+reinforcement_spacing_lay_3_mm;catalog;250.0|200.0|166.7|142.9|125.0|111.1|100.0|90.9|83.3|76.9|71.4|66.7|62.5|58.8|55.6|52.6|50.0|47.6|45.5|43.5|41.7|40.0|38.5|37.0|35.7|34.5|33.3;;;;0;26;1;var;float;"""";
+reinforcement_layer_active_2_;catalog;0 | 1;;;;0;1;0;var;float;"""";
+reinforcement_layer_active_3_;catalog;0 | 1;;;;0;1;0;var;float;"""";
+reinforcement_diameter_mm;catalog;10|12|14|16|20|24|28|32;;;;0;7;3;var;float;"""";
+concrete_grade_MPa;catalog;16 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 70 | 80 | 90;;;;0;12;0;var;float;Materials - concrete;
+alpha_cc_;catalog;0.85;;;;0;0;0;fixed;float;"""";
+w_allowed_tinf_;catalog;125 | 250 | 500;;;;0;2;0;fixed;float;"""";
+w_allowed_inc_;catalog;250 | 500;;;;0;1;1;fixed;float;"""";
+vibration_f_min_Hz;catalog;6 | 8;;;;0;1;1;fixed;float;"""";min. value for first Eigenfrequency
+fire_resistance_min;catalog;30| 60 | 90;;;;0;2;2;fixed;float;Criteria for code checks;
+obj_weight_cost;catalog;0 | 1;;;;0;1;1;fixed;float;Objective function;
+obj_weight_gwp;catalog;0 | 1;;;;0;1;0;fixed;float;"""";
+cost_reinf_steel/conc_;catalog;1 | 10 | 20 | 30 | 40;;;;0;4;0;fixed;float;"""";Ratio of cost of steel/concrete (C30/37)
+gwp_reinf_steel/conc_;catalog;10 | 15 | 20 | 25 | 30 | 35;;;;0;5;0;fixed;float;"""";Ratio of global warming potential (GWP) of steel/concrete (C30/37)
+concrete_grade_list_MPa;catalog;16.0,20.0,25.0,30.0,35.0,40.0,45.0,50.0,55.0,60.0,70.0,80.0,90.0;;;;0;0;0;fixed;str;"""";List with concrete grades to assign and get prices and GWP values during analysis
+concrete_cost_eur_m3;catalog;162.5,167.5,175.0,185.0,195.0,212.5,217.5,222.5,245.0,255.0,270.0,285.0,295.0;;;;0;0;0;fixed;str;"""";List with prices for concrete sorted by concrete grade
+concrete_gwp_kgco2e_m3;catalog;150.0,157.0,181.0,196.0,220.0,246.5,273.0,275.0,286.0,289.0,307.0,323.0,337.0;;;;0;0;0;fixed;str;"""";List with GWP of concrete sorted by concrete grade according to average values from InformationsZentrum Beton in Oekobaudat (values above C60/70 are extrapolated)
+;;;;;;;;;;;;
+;;;;;;;;;;;;

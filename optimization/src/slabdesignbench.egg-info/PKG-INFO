@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: slabdesignbench
+Version: 0.1.0
+Summary: Slab design optimisation benchmark framework built on IOHExperimenter, StructuralCodes and custom components
+Author-email: Max Dombrowski <m.dombrowski@tu-berlin.de>
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: ioh>=0.3
+Requires-Dist: numpy>=1.26
+Requires-Dist: structuralcodes>=0.6.2
+Requires-Dist: matplotlib>=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Requires-Dist: tox>=4.0.0; extra == "dev"
+Provides-Extra: examples
+Requires-Dist: graphviz>=0.20; extra == "examples"
+Requires-Dist: nlopt>=2.7; extra == "examples"
+Requires-Dist: rbfopt>=4.2; extra == "examples"
+Requires-Dist: hyperopt>=0.2; extra == "examples"
+
+# Slab Design Benchmark
+
+[![Tests](https://github.com/Kildd/slabdesignbench/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Kildd/slabdesignbench/actions/workflows/test.yml)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/)
+[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
+To-Do: Human-readable overview: what the project does, how to set up/run notebooks, data sources, etc.

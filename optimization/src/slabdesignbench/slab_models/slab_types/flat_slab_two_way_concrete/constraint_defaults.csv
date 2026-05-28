@@ -1,0 +1,17 @@
+﻿name;kind;enforced;weight;exponent;active_default
+w_allowed_tinf_;integer;HIDDEN;1;1;true
+w_allowed_inc_;integer;HIDDEN;1;1;true
+bending_capacity_;integer;HIDDEN;1;1;true
+const_shear_VRd_max_;integer;HIDDEN;1;1;true
+min_slab_depth_fire_;integer;HIDDEN;1;1;true
+min_reinforcement_crack_;integer;HIDDEN;1;1;true
+min_reinforcement_ductility_;integer;HIDDEN;1;1;true
+max_reinforcement;integer;HIDDEN;1;1;true
+max_reinforcement_spacing_lay_1;integer;HIDDEN;1;1;true
+max_reinforcement_spacing_lay_2;integer;HIDDEN;1;1;true
+max_reinforcement_spacing_lay_3;integer;HIDDEN;1;1;true
+min_reinforcement_spacing_lay_1;integer;HIDDEN;1;1;true
+min_reinforcement_spacing_lay_2;integer;HIDDEN;1;1;true
+min_reinforcement_spacing_lay_3;integer;HIDDEN;1;1;true
+reinforcement_outside_cross_section;integer;HIDDEN;1;1;true
+vibration_f_min_Hz;integer;HIDDEN;1;1;true

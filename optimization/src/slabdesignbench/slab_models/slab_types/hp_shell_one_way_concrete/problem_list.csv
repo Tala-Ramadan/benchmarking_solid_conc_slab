@@ -1,0 +1,44 @@
+﻿problem_id;type;name;role;lb_idx;ub_idx;fixed_idx;active;enforced;weight;exponent;label;
+1;param;slab_depth_mm;var;0;29;;;;;;1;100 |400 | 10
+1;param;slab_width_mm;;;;6;;;;;1;250 | 1000 | 125
+1;param;reinforcement_diameter_mm;var;0;7;;;;;;1;10|12|14|16|20|24|28|32
+1;param;concrete_grade_MPa;var;0;12;;;;;;1;16 | 20 | 25 | 30 | 35 | 40 | 45 | 50 | 55 | 60 | 70 | 80 | 90
+1;param;reinforcement_spacing_lay_1_mm;var;0;26;;;;;;1;250.0|200.0|166.7|142.9|125.0|111.1|100.0|90.9|83.3|76.9|71.4|66.7|62.5|58.8|55.6|52.6|50.0|47.6|45.5|43.5|41.7|40.0|38.5|37.0|35.7|34.5|33.3
+1;param;reinforcement_spacing_lay_2_mm;var;0;26;;;;;;1;250.0|200.0|166.7|142.9|125.0|111.1|100.0|90.9|83.3|76.9|71.4|66.7|62.5|58.8|55.6|52.6|50.0|47.6|45.5|43.5|41.7|40.0|38.5|37.0|35.7|34.5|33.3
+1;param;reinforcement_spacing_lay_3_mm;var;0;26;;;;;;1;250.0|200.0|166.7|142.9|125.0|111.1|100.0|90.9|83.3|76.9|71.4|66.7|62.5|58.8|55.6|52.6|50.0|47.6|45.5|43.5|41.7|40.0|38.5|37.0|35.7|34.5|33.3
+1;param;reinforcement_layer_active_2_;var;0;1;;;;;;1;0 | 1
+1;param;reinforcement_layer_active_3_;var;0;1;;;;;;1;0 | 1
+1;param;obj_weight_cost;fixed;;;1;;;;;1;0 | 1
+1;param;obj_weight_gwp;fixed;;;0;;;;;1;0 | 1
+1;param;span_primary_m;fixed;;;8;;;;;1;4.0 | 4.5 | 5.0 | 5.5 | 6.0 | 6.5 | 7.0 | 7.5 | 8.0 | 8.5 | 9.0 | 9.5 | 10.0
+1;param;span_secondary_m;fixed;;;8;;;;;1;4.0 | 4.5 | 5.0 | 5.5 | 6.0 | 6.5 | 7.0 | 7.5 | 8.0 | 8.5 | 9.0 | 9.5 | 10.0
+1;param;live_load_kN_m2;fixed;;;3;;;;;1;2 | 3 | 4 | 5
+1;param;superimposed_dead_load_kN_m2;fixed;;;1;;;;;1;1.0 | 1.5 | 2.0 | 2.5 | 3.0
+1;param;alpha_cc_;fixed;;;0;;;;;1;0.85
+1;param;static_system_;fixed;;;0;;;;;1;0 | 1
+1;param;load_category_;fixed;;;0;;;;;1;0 | 1 | 2 | 3| 4
+1;param;w_allowed_tinf_;fixed;;;1;;;;;1;125 | 250 | 500
+1;param;w_allowed_inc_;fixed;;;1;;;;;1;250 | 500
+1;param;fire_resistance_min;fixed;;;2;;;;;1;30| 60 | 90
+1;param;vibration_f_min_Hz;fixed;;;1;;;;;1;6 | 8
+1;param;cost_reinf_steel/conc_;fixed;;;2;;;;;1;1 | 10 | 20 | 30 | 40
+1;param;gwp_reinf_steel/conc_;fixed;;;2;;;;;1;10 | 15 | 20 | 25 | 30 | 35
+1;param;concrete_grade_list_MPa;fixed;;;0;;;;;1;16.0,20.0,25.0,30.0,35.0,40.0,45.0,50.0,55.0,60.0,70.0,80.0,90.0
+1;param;concrete_cost_eur_m3;fixed;;;0;;;;;1;162.5,167.5,175.0,185.0,195.0,212.5,217.5,222.5,245.0,255.0,270.0,285.0,295.0
+1;param;concrete_gwp_kgco2e_m3;fixed;;;0;;;;;1;150.0,157.0,181.0,196.0,220.0,246.5,273.0,275.0,286.0,289.0,307.0,323.0,337.0
+1;constraint;w_allowed_tinf_;;;;;true;HIDDEN;1;1;1;
+1;constraint;w_allowed_inc_;;;;;true;HIDDEN;1;1;1;
+1;constraint;bending_capacity_;;;;;true;HIDDEN;1;1;1;
+1;constraint;const_shear_VRd_max_;;;;;true;HIDDEN;1;1;1;
+1;constraint;min_slab_depth_fire_;;;;;true;HIDDEN;1;1;1;
+1;constraint;min_reinforcement_crack_;;;;;true;HIDDEN;1;1;1;
+1;constraint;min_reinforcement_ductility_;;;;;true;HIDDEN;1;1;1;
+1;constraint;max_reinforcement;;;;;true;HIDDEN;1;1;1;
+1;constraint;max_reinforcement_spacing_lay_1;;;;;true;HIDDEN;1;1;1;
+1;constraint;max_reinforcement_spacing_lay_2;;;;;true;HIDDEN;1;1;1;
+1;constraint;max_reinforcement_spacing_lay_3;;;;;true;HIDDEN;1;1;1;
+1;constraint;min_reinforcement_spacing_lay_1;;;;;true;HIDDEN;1;1;1;
+1;constraint;min_reinforcement_spacing_lay_2;;;;;true;HIDDEN;1;1;1;
+1;constraint;min_reinforcement_spacing_lay_3;;;;;true;HIDDEN;1;1;1;
+1;constraint;reinforcement_outside_cross_section;;;;;true;HIDDEN;1;1;1;
+1;constraint;vibration_f_min_Hz;;;;;true;HIDDEN;1;1;1;

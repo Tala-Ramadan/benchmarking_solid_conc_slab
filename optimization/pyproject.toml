@@ -1,0 +1,105 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slabdesignbench"
+authors = [{name = "Max Dombrowski", email = "m.dombrowski@tu-berlin.de"}]
+version = "0.1.0"
+description = "Slab design optimisation benchmark framework built on IOHExperimenter, StructuralCodes and custom components"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "ioh>=0.3",
+    "numpy>=1.26",
+    "structuralcodes>=0.6.2",
+    "matplotlib>=3.10",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "tox>=4.0.0",
+]
+examples = [
+    "graphviz>=0.20",
+    "nlopt>=2.7",
+    "rbfopt>=4.2",
+    "hyperopt>=0.2",
+    "pymoo>=0.5.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# Include ALL CSVs under slab_types/*/*)
+[tool.setuptools.package-data]
+"slabdesignbench" = ["slab_models/slab_types/**/*.csv"]
+
+# Pytest configuration
+[tool.pytest.ini_options]
+testpaths = ["src/tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "--strict-config",
+    "--verbose",
+    "--cov=src/slabdesignbench",
+    "--cov-report=term-missing",
+    "--cov-report=html",
+    "--cov-report=xml",
+]
+
+# Coverage configuration
+[tool.coverage.run]
+source = ["src/slabdesignbench"]
+omit = [
+    "*/tests/*",
+    "*/test_*.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+    "@abstractmethod",
+]
+
+# Ruff configuration
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = [
+    "SIM105", # Use contextlib.suppress - ignore this rule
+    "SIM108",  # Use ternary operator - ignore this rule
+    "E501",  # Line too long - ignore this rule
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
