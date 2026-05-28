@@ -1,9 +1,9 @@
 # Benchmarking von Optimierungsalgorithmen für Stahlbetondecken
 
-Masterarbeit — Tala Ramadan, TU Berlin, SoSe 2025/26
+Masterarbeit, TU Berlin, SoSe 2025/26
 
 Dieses Repository enthält den vollständigen Code, die Ergebnisse und die Auswertungsskripte
-zur Benchmarking-Studie von Optimierungsalgorithmen für die Bemessung von
+zur Benchmarking-Studie von Optimierungsalgorithmen für die Bemessung von einachsig gespannten
 Stahlbeton-Elementdecken nach EC2 (DIN EN 1992-1-1).
 
 ---
@@ -83,14 +83,15 @@ source("modular/main.R")
 
 ---
 
-## 3 — Ergebnisse
+## 3 — Ergebnisse (Beispiele) 
 
 | Ordner | Inhalt |
 |---|---|
-| `results/logger_results_finale_Ausfuehrung_Start_260405/` | Finale Benchmark-Laeufe (alle Algorithmen) |
-| `results/logger_results_RBFOPT_vibr_true_gwp_n1000_primary_span_finale_Ausfuehrung_260405/` | RBFOpt-Laeufe mit GWP, n=1000 |
-| `results/logger_results_GA_DIRECT_vibr_true_gwp_n300_primary_span_only/` | GA + DIRECT, n=300 |
-| `results/logger_results_RBFOpt_Budget_setting_1500_eval/` | RBFOpt Budget-Einstellung 1500 |
-| `results/lhs_design_space_results_finale_Ausfuehrung_Start_260404/` | LHS Design-Space-Analyse |
-| `results/cross_section_plots_finale_Ausfuehrung_Start_260405/` | Querschnittsplots beste Loesungen |
-| `results/feasibility_outputs_20260415_213149_letzte_Ausfuehrung/` | Feasibility-Analyse |
+| 'results/logger_results_finale_Ausfuehrung_Start_260405/` | Finale Benchmark-Laeufe (alle Algorithmen) |
+| 'results/logger_results_RBFOPT_vibr_true_gwp_n1000_primary_span_finale_Ausfuehrung_260405/` | RBFOpt-Laeufe mit GWP, n=1000 |
+| 'results/logger_results_GA_DIRECT_vibr_true_gwp_n300_primary_span_only/` | GA + DIRECT, n=300 |
+| 'results/logger_results_RBFOpt_Budget_setting_1500_eval/` | RBFOpt Budget-Einstellung 1500 |
+| 'results/lhs_design_space_results_finale_Ausfuehrung_Start_260404/` | LHS Design-Space-Analyse |
+| 'results/cross_section_plots_finale_Ausfuehrung_Start_260405/` | Querschnittsplots beste Loesungen |
+| 'results/feasibility_outputs_20260415_213149_letzte_Ausfuehrung/` | Feasibility-Analyse |
+| 'analysis/plot_exports/'|exzemplarische Auswertungsdiagramme fue die Konvergenzgeschwindigkeit | 
