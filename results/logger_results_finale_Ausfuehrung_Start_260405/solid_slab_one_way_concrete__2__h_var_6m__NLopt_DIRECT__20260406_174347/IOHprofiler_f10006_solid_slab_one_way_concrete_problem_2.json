@@ -1,0 +1,18 @@
+{
+	"version": "0.3.22", 
+	"suite": "unknown_suite", 
+	"function_id": 10006, 
+	"function_name": "solid_slab_one_way_concrete_problem_2", 
+	"maximization": false, 
+	"algorithm": {"name": "NLopt_DIRECT", "info": "algorithm_info"},
+	"attributes": ["evaluations", "raw_y", "y", "y_p", "misses", "hits", "c__w_allowed_tinf_", "c__w_allowed_inc_", "c__bending_capacity_", "c__shear_VRd_max_", "c__min_slab_depth_fire_", "c__min_reinforcement_crack_", "c__min_reinforcement_ductility_", "c__max_reinforcement", "c__max_reinforcement_spacing_lay_1", "c__max_reinforcement_spacing_lay_2", "c__max_reinforcement_spacing_lay_3", "c__min_reinforcement_spacing_lay_1", "c__min_reinforcement_spacing_lay_2", "c__min_reinforcement_spacing_lay_3", "c__reinforcement_outside_cross_section", "c__beam_bending_capacity_", "c__beam_shear_VRd_max_", "c__beam_min_width_fire_", "c__beam_min_reinforcement_crack_", "c__beam_min_reinforcement_duct_", "c__beam_max_reinforcement_", "c__beam_min_spacing_lay_1_", "c__beam_min_spacing_lay_2_", "c__beam_deflection_tinf_", "var__slab_depth_mm", "var__reinforcement_spacing_lay_1_mm", "var__reinforcement_spacing_lay_2_mm", "var__reinforcement_spacing_lay_3_mm", "var__reinforcement_layer_active_2_", "var__reinforcement_layer_active_3_", "var__reinforcement_diameter_mm", "var__concrete_grade_MPa", "var__beam_depth_mm", "var__beam_reinforcement_diameter_mm", "var__beam_reinforcement_spacing_lay_1_mm", "var__beam_reinforcement_spacing_lay_2_mm", "var__beam_reinforcement_layer_active_2_"],
+	"scenarios": [
+		{"dimension": 13,
+		"path": "data_f10006_solid_slab_one_way_concrete_problem_2/IOHprofiler_f10006_DIM13.dat",
+		"runs": [
+			{"instance": 1, "evals": 1001, "best": {"evals": 230, "y": 151.31098424400548, "x": [13, 3, 13, 13, 0, 0, 4, 10, 4, 4, 4, 5, 0]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 230, "y": 151.31098424400548, "x": [13, 3, 13, 13, 0, 0, 4, 10, 4, 4, 4, 5, 0]}},
+			{"instance": 1, "evals": 1001, "best": {"evals": 230, "y": 151.31098424400548, "x": [13, 3, 13, 13, 0, 0, 4, 10, 4, 4, 4, 5, 0]}}
+		]}
+	]
+}
