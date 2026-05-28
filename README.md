@@ -4,7 +4,7 @@ Masterarbeit, TU Berlin, SoSe 2025/26
 
 Dieses Repository enthält den vollständigen Code, die Ergebnisse und die Auswertungsskripte
 zur Benchmarking-Studie von Optimierungsalgorithmen für die Bemessung von einachsig gespannten
-Stahlbeton-Elementdecken nach EC2 (DIN EN 1992-1-1).
+Stahlbeton-Massivdecken nach EC2 (DIN EN 1992-1-1).
 
 ---
 
